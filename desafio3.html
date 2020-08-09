@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banderas</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .bandera {
+        position: relative;
+        width: 49%;
+        display: block;
+        float: left;
+        border: 1px solid gray;
+        margin-bottom: 15px;
+    }
+
+    #spain .rojo {
+        background-color: red;
+        height: 100px;
+        width: 100%;
+    }
+
+    #spain .amarillo {
+        width: 100%;
+        height: 170px;
+        background-color: yellow;
+    }
+
+    #dinamarca {
+        position: relative;
+        margin-left: 10px;
+    }
+
+    .box {
+        background-color: red;
+        height: 60px;
+        float: left;
+    }
+
+    .box-a {
+        width: 20%;
+        height: 170px;
+
+
+    }
+
+    .box-b {
+        width: 70%;
+        height: 170px;
+    }
+
+    .mb {
+        margin-bottom: 30px;
+    }
+
+    .ml {
+        margin-left: 30px;
+    }
+
+    #emiratos .box {
+        display: block;
+    }
+
+    .box-r {
+        background-color: red;
+        height: 360px;
+        width: 30%;
+        position: absolute;
+    }
+
+    .box-g {
+        background-color: green;
+        height: 120px;
+        width: 100%;
+    }
+
+    .box-w {
+        background-color: white;
+        height: 120px;
+        width: 100%;
+    }
+
+    .box-bl {
+        background-color: black;
+        height: 120px;
+        width: 100%;
+    }
+
+    #japon {
+        margin-left: 10px;
+        height: 360px;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border-radius: 100px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <div id="spain" class="bandera">
+        <div class="rojo"></div>
+        <div class="amarillo"></div>
+        <div class="rojo"></div>
+    </div>
+    <div id="dinamarca" class="bandera">
+        <div class="box box-a "></div>
+        <div class="box box-b ml mb"></div>
+        <div class="box box-a"></div>
+        <div class="box box-b ml"></div>
+    </div>
+    <div id="emiratos" class="bandera">
+        <div class="box box-r"></div>
+        <div class="box box-g"></div>
+        <div class="box box-w"></div>
+        <div class="box box-bl"></div>
+    </div>
+    <div id="japon" class="bandera">
+        <div class="circle"></div>
+    </div>
+</body>
+
+</html>
